@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rumilee.aidme">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.CALL_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity_HomePage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BeginOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeginTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BurnsOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BurnsTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fainting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cprone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mykit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BloodOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BloodTwo"
+            android:screenOrientation="portrait" />
+        <activity android:name=".cprtwo" />
+        <activity android:name=".fractureone" />
+        <activity android:name=".fracturetwo" />
+        <activity android:name=".frostbite" />
+        <activity android:name=".stingsone" />
+        <activity android:name=".stingstwo" />
+        <activity android:name=".stroke"></activity>
+    </application>
+
+</manifest>

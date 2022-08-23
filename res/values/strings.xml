@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AidMe</string>
+    <string name="title_activity_main__trial">MainActivity_Trial</string>
+    <string name="title_activity_emergency_one">EmergencyOne</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_kit">my_kit</string>
+</resources>

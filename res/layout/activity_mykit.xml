@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fc2e0"
+    tools:context=".mykit">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageButton
+                android:id="@+id/mykit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mykit"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginRight="72dp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ToggleButton
+                android:id="@+id/safetypins"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_safetypins"
+                android:scaleType="centerInside"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/tweezers"
+                android:layout_width="30dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_tweezers"
+                android:scaleType="centerInside"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/scissors"
+                android:layout_width="45dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_scissors"
+                android:scaleType="centerInside"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAFETY PINS"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TWEEZERS"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCISSORS"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ToggleButton
+                android:id="@+id/coldpack"
+                android:layout_width="5dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_coldpack"
+                android:scaleType="centerInside"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                />
+
+            <ToggleButton
+                android:id="@+id/gloves"
+                android:layout_width="5dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_gloves"
+                android:scaleType="centerInside"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                />
+
+            <ToggleButton
+                android:id="@+id/firstaid"
+                android:layout_width="5dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_firstaid"
+                android:scaleType="fitCenter"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COLD PACK"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STERILE GLOVES"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FIRST AID MANUAL"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ToggleButton
+                android:id="@+id/gauze"
+                android:layout_width="5dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_gauze"
+                android:scaleType="fitCenter"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                />
+
+            <ToggleButton
+                android:id="@+id/wipes"
+                android:layout_width="5dp"
+                android:layout_height="70dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_wipes"
+                android:scaleType="fitCenter"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                />
+
+            <ToggleButton
+                android:id="@+id/bandaids"
+                android:layout_width="5dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/toggle_bandaids"
+                android:scaleType="fitCenter"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GAUZE"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WIPES"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BANDAIDS"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+
+
+            <ImageButton
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buttonback"
+                android:layout_toLeftOf="@+id/hospitalhome"
+                android:layout_centerInParent="true"
+                android:onClick="onBackButtonClick"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

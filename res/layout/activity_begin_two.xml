@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fc2e0"
+    tools:context=".BeginTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginRight="81dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingTop="32dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/call"
+            android:layout_weight="1"
+            android:onClick="callIntent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/fracture"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fracture"
+                android:layout_weight="1"
+                android:onClick="openFracture"
+                />
+
+            <ImageButton
+                android:id="@+id/frostbite"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/frostbite"
+                android:onClick="openFrostbite"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FRACTURE"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="12pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROSTBITE"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="12pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/stings"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stings"
+                android:onClick="openStings"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:id="@+id/stroke"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stroke"
+                android:onClick="openStroke"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STINGS"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="12pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="STROKE"
+                android:fontFamily="@font/gotham_light"
+                android:textColor="@android:color/black"
+                android:textSize="12pt"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+            <ImageButton
+                android:id="@+id/hospitalhome"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hospitalhome"
+                android:layout_centerHorizontal="true"
+                android:onClick="openHomePage"
+                />
+
+            <ImageButton
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buttonback"
+                android:layout_toLeftOf="@+id/hospitalhome"
+                android:layout_centerInParent="true"
+                android:onClick="openBeginOne"
+                />
+
+            <ImageButton
+                android:id="@+id/buttonnext"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:alpha="0"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buttonnext"
+                android:layout_toRightOf="@+id/hospitalhome"
+                android:layout_centerInParent="true"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

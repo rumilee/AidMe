@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fc2e0"
+    tools:context=".cprone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham_light"
+                android:text="CPR"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30pt" />
+
+            <ImageView
+                android:id="@+id/bloodlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cpr" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/gotham_medium_regular"
+                android:text="COMPRESSIONS:"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham_medium_regular"
+                android:text="Restore Blood Circulation"
+                android:textAlignment="center"
+                android:layout_marginLeft="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="10pt" />
+
+                 </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cprone"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:paddingRight="12dp"
+                    android:paddingLeft="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cprone"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/cprone"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/cprtextone"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/cprtwo"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cprtwo"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/cprtwo"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/cprtexttwo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cprthree"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cprthree"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/cprthree"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:adjustViewBounds="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/cprtextthree"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+            <ImageButton
+                android:id="@+id/hospitalhome"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hospitalhome"
+                android:layout_centerHorizontal="true"
+                android:onClick="openBeginOne"
+
+                />
+
+            <ImageButton
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buttonback"
+                android:layout_toLeftOf="@+id/hospitalhome"
+                android:layout_centerInParent="true"
+                android:onClick="openBeginOne"
+
+                />
+
+            <ImageButton
+                android:id="@+id/buttonnext"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/buttonnext"
+                android:layout_toRightOf="@+id/hospitalhome"
+                android:layout_centerInParent="true"
+                android:onClick="opencprtwo"
+
+                />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
